@@ -7,9 +7,11 @@
     <title>Shubham Arora's homepage</title>
 
     <style>
-        html, body {
+        html,
+        body {
             height: 100%;
         }
+
         body {
             font-family: sans-serif;
             width: 100%;
@@ -41,6 +43,16 @@
         .hello {
             max-width: 800px;
         }
+
+        .nav-bar a:link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nav-bar a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
     </style>
 </head>
 
@@ -48,16 +60,16 @@
 
     <div class="base">
         <div class="nav-bar">
-            <div class="image"><img src="assets/avatar.jpeg" alt="avatar" width="200px" ></div>
+            <div class="image"><img src="assets/avatar.jpeg" alt="avatar" width="200px"></div>
             <div class="logo">Shubham Arora</div>
             <div class="subtext">Software Systems Engineer</div>
             <div class="links">
                 <ul>
                     <li>Home</li>
-                    <li>Email</li>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
-                    <li>Posts</li>
+                    <li> <a href="mailto: aroras@bu.edu"> Email</a></li>
+                    <li> <a href="https://github.com/arorashu" target="_blank"> Github </a></li>
+                    <li> <a href="http://linkedin.com/in/shubham-arora" target="_blank"> LinkedIn </a></li>
+                    <li> Posts</li>
                 </ul>
             </div>
         </div>
@@ -77,17 +89,17 @@
             <div class="current-projects">
                 <h2>Current Projects</h1>
                     <ol>
-                        <li>CPISync</li>
-                        <li>Transactions On Ray</li>
+                        <li> <a href="https://github.com/trachten/cpisync"> CPISync </a></li>
+                        <li> <a href="https://github.com/arorashu/transactions-ray"> Transactions On Ray </a></li>
                     </ol>
             </div>
 
             <h2>Past Projects</h1>
                 <div class="past-projects">
                     <ol>
-                        <li>Digital Equity</li>
+                        <li> <a href="https://github.com/jpjosephh/spark-digital-equity"> Digital Equity </a></li>
                     </ol>
-            </div>
+                </div>
         </div>
     </div>
 </body>
